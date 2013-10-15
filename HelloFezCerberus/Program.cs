@@ -5,6 +5,7 @@ namespace HelloFezCerberus
 {
     public partial class Program
     {
+        //start with debug led off.
         private bool _isDebugLedOn = false;
         // This method is run when the mainboard is powered up or reset.   
         void ProgramStarted()
