@@ -11,7 +11,6 @@ namespace HelloFezCerberus
         void ProgramStarted()
         {
             Debug.Print("Program Started");
-
             var timer = new GT.Timer(500);
             timer.Tick += timer_Tick;
             timer.Start();
