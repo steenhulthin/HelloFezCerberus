@@ -15,6 +15,9 @@ namespace HelloFezCerberus {
     
     public partial class Program : Gadgeteer.Program {
         
+        /// <summary>The UsbClientSP module using socket 8 of the mainboard.</summary>
+        private Gadgeteer.Modules.GHIElectronics.UsbClientSP usbClientSP;
+        
         /// <summary>This property provides access to the Mainboard API. This is normally not necessary for an end user program.</summary>
         protected new static GHIElectronics.Gadgeteer.FEZCerberus Mainboard {
             get {
@@ -37,6 +40,7 @@ namespace HelloFezCerberus {
         }
         
         private void InitializeModules() {
+            this.usbClientSP = new GTM.GHIElectronics.UsbClientSP(8);
         }
     }
 }
