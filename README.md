@@ -14,7 +14,7 @@ Hardware setup
 
 You have to connect the hardware module with the mainboard as it is shown in the `Program.gadgeteer` diagram (This is part of the code.). 
 
-Here is a ![picture of the hardware setup](HelloFezCerberus.jpg)
+Here is a picture of the hardware setup. ![picture of the hardware setup](HelloFezCerberus.jpg)
 
 The result
 ----------
