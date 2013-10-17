@@ -21,4 +21,4 @@ The result
 
 The viewable result of the running the code is that the green led light on the main board blinks (it switches from on to off or vice versa) every half second.
 
-I have added a [video of the result](https://github.com/steenhulthin/HelloFezCerberus/blob/master/HelloFezCerberus.mp4).
+I have uploaded a [video of the result](http://youtu.be/N9JHj3aMxAk) on youtube.
